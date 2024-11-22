@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Iphone</title>
+
+    <style>
+        .caixa {
+            background-color: black;
+            width: 242px;
+            height: 472px;
+            border-radius: 10px;
+            margin: auto;
+        }
+        .caixa_numero {
+            color: white;
+            padding: 16px;
+            border: 2px solid gray;
+            border-radius: 50px;
+            text-align: center;
+            align-content: center;
+            float: left;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            margin: 2px;
+            height: 16px;
+            width: 16px;
+        }
+        .display_numerico {
+            color: white;
+            padding-right: 15px;
+            padding-top: 80px;
+            text-align:right;
+            vertical-align: text-bottom;
+            border: 1px solid red;
+            height: 85px;
+            font-size: 70px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .display_digito {
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            position: 50%;
+        }
+        .caixa_numero_zeroinvisivel {
+            color: black;
+            padding: 16px;
+            border-left: 2px solid black;
+            border-right: 2px solid gray;
+            border-bottom: 2px solid gray;
+            border-top: 2px solid gray;
+            text-align: center;
+            align-content: center;
+            float: left;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+        .caixa_numero_zero {
+            color: white;
+            padding: 16px;
+            border-right: 2px solid black;
+            border-left: 2px solid gray;
+            border-bottom: 2px solid gray;
+            border-top: 2px solid gray;
+            text-align: center;
+            align-content: center;
+            float: left;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="caixa">
+        <div class="display_numerico">0</div>
+
+        <div class="display_digito">
+            <div class="caixa_numero">C</div>
+            <div class="caixa_numero">±</div>
+            <div class="caixa_numero">%</div>
+            <div class="caixa_numero">÷</div>
+    
+            <div class="caixa_numero">7</div>
+            <div class="caixa_numero">8</div>
+            <div class="caixa_numero">9</div>
+            <div class="caixa_numero">×</div>
+    
+            <div class="caixa_numero">4</div>
+            <div class="caixa_numero">5</div>
+            <div class="caixa_numero">6</div>
+            <div class="caixa_numero">+</div>
+    
+            <div class="caixa_numero">1</div>
+            <div class="caixa_numero">2</div>
+            <div class="caixa_numero">3</div>
+            <div class="caixa_numero">-</div>
+    
+            <div class="caixa_numero_zero">0</div>
+            <div class="caixa_numero_zeroinvisivel">0</div>
+            <div class="caixa_numero">,</div>
+            <div class="caixa_numero">=</div>
+        </div>
+    </div>
+
+</body>
+</html>
