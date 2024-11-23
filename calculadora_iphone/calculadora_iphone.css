@@ -1,0 +1,66 @@
+.caixa {
+    background-color: black;
+    width: 242px;
+    height: 472px;
+    border-radius: 10px;
+    margin: auto;
+}
+.caixa_numero {
+    color: white;
+    padding: 16px;
+    border: 2px solid gray;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin: 2px;
+    height: 16px;
+    width: 16px;
+}
+.display_numerico {
+    color: white;
+    padding-right: 15px;
+    padding-top: 80px;
+    text-align:right;
+    vertical-align: text-bottom;
+    height: 85px;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.botões {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    position: 50%;
+}
+.caixa_numero_zeroinvisivel {
+    color: black;
+    padding: 16px;
+    border-left: 2px solid black;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    text-align: center;
+    align-content: center;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.caixa_numero_zero {
+    color: white;
+    padding: 16px;
+    border-right: 2px solid black;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    text-align: center;
+    align-content: center;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
