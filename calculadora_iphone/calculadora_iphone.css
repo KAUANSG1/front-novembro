@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
 .caixa {
     background-color: black;
     width: 242px;
@@ -8,29 +14,30 @@
 .caixa_numero {
     color: white;
     padding: 16px;
-    border: 2px solid gray;
     border-radius: 50px;
     text-align: center;
     align-content: center;
     float: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-    margin: 2px;
-    height: 16px;
-    width: 16px;
+    font-family: monospace;
+    font-size: 25px;
+    margin: 4px;
+    height: 15px;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .display_numerico {
     color: white;
     padding-right: 15px;
-    padding-top: 80px;
+    padding-top: 90px;
     text-align:right;
-    vertical-align: text-bottom;
-    height: 85px;
+    height: 65px;
     font-size: 70px;
     font-family: 'Courier New', Courier, monospace;
 }
 .botões {
-    padding: 5px;
+    padding: 11px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -38,29 +45,31 @@
     align-content: center;
     position: 50%;
 }
-.caixa_numero_zeroinvisivel {
-    color: black;
-    padding: 16px;
-    border-left: 2px solid black;
-    border-right: 2px solid gray;
-    border-bottom: 2px solid gray;
-    border-top: 2px solid gray;
-    text-align: center;
-    align-content: center;
-    float: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+.zero {
+    background-color: #483D3F;
+    height: 16px;
+    width: 70px;
+    text-align: left;
+    justify-content: flex-start;
 }
-.caixa_numero_zero {
-    color: white;
-    padding: 16px;
-    border-right: 2px solid black;
-    border-left: 2px solid gray;
-    border-bottom: 2px solid gray;
-    border-top: 2px solid gray;
-    text-align: center;
-    align-content: center;
-    float: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+.operadores {
+    background-color: orange;
+}
+.operadores1 {
+    background-color: gray;
+}
+.cor_numeros {
+    background-color: #483D3F;
+}
+.operadores:hover {
+    background-color: beige;
+}
+.operadores1:hover {
+    background-color: beige;
+}
+.cor_numeros:hover {
+    background-color: beige;
+}
+.zero:hover {
+    background-color: beige;
 }
