@@ -27,6 +27,14 @@
         resultado.innerText = texto;
     }
 
+    function letra()
+    {
+        var texto = entrada.value;
+        var primeira_letra = texto.charAt(0).toUpperCase();
+        var resto_texto = texto.slice(1).toLowerCase();
+        resultado.innerText = primeira_letra + resto_texto;
+    }
+
     function soma()
     {
         var res = parseInt(n1.value) + parseInt(n2.value);
@@ -53,9 +61,10 @@
 <body>
     <h1>Javascript</h1>
 
-    <input id="entrada" type="text" value="oi"/>
+    <input id="entrada" type="text" value="Digite aqui"/>
     <button onclick="clique()">Clique aqui</button>
     <button onclick="maiuscula()">Maiusculas</button>
+    <button onclick="letra()">1 Letra</button>
     <br>
     <br>
     <input id="n1" type="text"/>
