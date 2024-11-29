@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Cadastro</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="jquery-3.7.1.min.js">
+    <link rel="stylesheet" href="form_em_bootstrap.js">
 </head>
 <body>
     
@@ -16,7 +18,7 @@
                 <form>
                     <div class="my-2">
                         <label class="form-label">Nome</label>
-                        <input type="text" class="form-control" placeholder="Digite seu nome"/>
+                        <input id="nome" type="text" class="form-control" placeholder="Digite seu nome"/>
                     </div>
 
                     <div class="my-2">
@@ -58,7 +60,7 @@
                         </select>
                     </div>
 
-                    <button class="btn btn-primary mt-4">Cadastrar</button>
+                    <button id="bt-cadastro" type="button" class="btn btn-primary mt-4">Cadastrar</button>
 
                 </form>
             </div>
