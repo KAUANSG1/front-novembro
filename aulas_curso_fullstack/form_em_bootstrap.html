@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Cadastro</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="jquery-3.7.1.min.js">
-    <link rel="stylesheet" href="form_em_bootstrap.js">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="form_em_bootstrap.js"></script>
 </head>
 <body>
     
@@ -19,6 +19,9 @@
                     <div class="my-2">
                         <label class="form-label">Nome</label>
                         <input id="nome" type="text" class="form-control" placeholder="Digite seu nome"/>
+                        <div class="invalid-feedback">
+                            O campo é obrigatorio.
+                        </div>
                     </div>
 
                     <div class="my-2">
@@ -46,18 +49,25 @@
                             <div class="form-check">
                                 <input type="radio" class="form-check-input" name="sexo"/>
                                 <label>Prefiro não dizer</label>
+                                <div class="invalid-feedback">
+                                    O Campo é obrigatorio.
+                                </div>
                             </div>
                         </div>
+                        
                     </div>
 
                     <div class="my-2">
                         <label class="form-label">Cidade</label>
-                        <select class="form-select">
+                        <select id="cidade" class="form-select">
                             <option>Curitiba</option>
                             <option>Colombo</option>
                             <option>Pinhais</option>
                             <option>Araucaria</option>
                         </select>
+                        <div class="invalid-feedback">
+                            Selecione uma cidade.
+                        </div>
                     </div>
 
                     <button id="bt-cadastro" type="button" class="btn btn-primary mt-4">Cadastrar</button>
