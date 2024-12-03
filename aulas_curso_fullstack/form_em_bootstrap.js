@@ -8,6 +8,8 @@ $(document).ready(function(){
         $("#cpf").removeClass("is-invalid");
         $("#email").removeClass("is-invalid");
 
+        // Comentario
+
 
         var nome = $("#nome").val();
         if (nome.trim() == "")
